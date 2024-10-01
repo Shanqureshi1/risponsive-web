@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+
+    /* * {
+        border: 1px solid black;
+    } */
+
+    #main1 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: orange;
+        border: none;
+        
+
+    }
+
+    #main2 {
+        width: 30px;
+        height: 30px;
+        background-color: rgb(112, 191, 255);;
+        border: none;
+
+    }
+
+    #main3 {
+        font-size: 25px;
+        color:black;
+    }
+
+    a {
+        text-decoration: none;
+        color:black;
+        font-size: 25px;
+        padding: 10px;
+        border: none;
+    }
+
+    a:hover {
+        background-color:  rgb(112, 191, 255);
+        color:white;
+        border-radius: 10px;
+
+    }
+
+    button {
+        border: none;
+        font-size: 25px;
+        background-color: transparent;
+
+    }
+
+    i {
+        color: rgb(112, 191, 255);;
+        font-size: 35px;
+
+    }
+
+    i:hover {
+        color:rgb(46, 62, 78);
+    }
+
+    #gmain1 {
+        background-image: url(img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 500px; 
+        color: white;
+        
+
+
+    }
+
+    img[alt]{border-radius: 120px; height: 200px;}
+
+    p[style]{color: white;}
+
+    p[id]{ color:rgb(112, 191, 255);}
+
+    
+    
+
+    
+
+    #btn1{
+    color: white;
+    }
+    
+
+    #btn1:hover {
+        border-radius: 10px;
+        background-color: rgb(112, 191, 255);
+        color:white;
+
+    }
+    
+    span{
+        color: rgb(112, 191, 255);
+    }
+
+    #btn2{
+        color: orange;
+    }
+    #btn2:hover{
+        background-color: rgb(112, 191, 255);
+        color: white;
+        border-radius: 15px;
+    }
+
+    #btn3{
+        color: rgb(112, 191, 255); 
+        margin-left: 200px;
+    }
+
+    #btn3:hover{
+        color: white;
+        background-color: rgb(112, 191, 255);
+        border-radius: 15px;
+    }
+
+    #btn4{
+        color: rgb(112, 191, 255);
+        margin-left: 200px; 
+    }
+
+    #btn4:hover{
+        color: white;
+        background-color: rgb(112, 191, 255);
+        border-radius: 15px;
+    }
+
+    #btn5{
+       border: 1px solid black;
+       width: 170px;
+       border-radius: 10px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    #btn6{
+        color: white;
+        margin-left: 255px;
+        border-radius: 15px;
+    }
+    #btn6:hover{
+        background-color: rgb(112, 191, 255);
+        
+    }
+    input{
+        border-radius: 10px;
+    }
+
+</style>
+
+<body>
+    <div class="d-flex justify-content-center">
+
+        <div class="d-flex justify-content-center align-items-center p-2" style="width: 400px;">
+            <div class="" id="main1"></div>&nbsp;&nbsp;
+            <div class="" id="main2"></div>&nbsp;&nbsp;
+            <div class="" id="main3">Your Logo</div>&nbsp;&nbsp;
+        </div>
+
+        <div class="p-2">
+            <a href="">Names</a>
+            <a href="">Portable</a>
+            <a href="">About</a>
+            <a href="">Contanct</a>
+            <a href="">Home</a>
+            &nbsp;&nbsp;
+            &nbsp;&nbsp;
+            <button class="bg-orange"><a href="">Search</a></button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center flex-column"
+         id="gmain1">
+        <h1>GOOD DESIGN IS GOOD BUSINESS</h1>
+        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi provident molestiae, illo accusantium eos
+            blanditiis, <br> eligendi consequatur magnam reprehenderit, iure excepturi autem explicabo consequuntur
+            repellat?</P>
+        <button id="btn1">LEARN MORE</button>
+    </div>
+    <div class="container-fluid">
+        <div class="row text-center mt-5">
+            <div class=" col-lg-3 col-md-6 col-sm-12">
+                <img src="img/web designing.jpeg" alt="img1">
+                <h2>Web Desing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Odit beatae eaque <br> repellendus iste
+                    voluptatibus officia <br> commodi fugiat unde corrupti <span>Details</span></p>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-sm-12 ">
+                <img src="img/search bar.png" alt="img2">
+                <h2>Search Optimization</h2>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Odit beatae eaque <br> repellendus iste
+                    voluptatibus officia <br> commodi fugiat unde corrupti <span>Details</span></p>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-sm-12 ">
+                <img src="img/trally.jpeg" alt="img3">
+                <h2>Online Shop</h2>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Odit beatae eaque <br> repellendus iste
+                    voluptatibus officia <br> commodi fugiat unde corrupti <span>Details</span></p>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-sm-12 ">
+                <img src="img/social media.jpeg" style="border-radius: 120px; height: 200px;" alt="img4">
+            <h2>Social Media</h2>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Odit beatae eaque <br> repellendus iste
+                voluptatibus officia <br> commodi fugiat unde corrupti <span>Details</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class=" d-flex justify-content-around align-items-center" style="background-color: rgb(46, 62, 78); color: orange; height: 150px;">
+                <h1>Our Portfolio Awesome</h1>
+                <button id="btn2">More Works</button>
+            </div>
+
+            <div class="container-fluid" style="background-color: rgb(46, 62, 78);">
+                <div class="row justify-content-center">
+
+                    <div class=" col-lg-3 col-md-6 col-sm-12">
+                        <div style="height: 300px; width: 360px; border: 10px solid white; margin: auto; background-color: rgb(208, 207, 207);" class="d-flex align-items-center justify-content-center"><ion-icon name="camera" style="font-size: 50px;"></ion-icon></div><br>
+                        <h4 style="color: orange;">Lorem Ipsum Dolor Sit Amet.</h4>
+                        <p style="">Lorem ipsum dolor sit amet consectetur, sita it<br> adipisicing elit. Placeat nemo 
+                        </p>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12">
+                        <div style="height: 300px; width: 360px; border: 10px solid white; margin: auto; background-color: rgb(210, 207, 207);" class="d-flex align-items-center justify-content-center"><ion-icon name="camera" style="font-size: 50px;"></ion-icon></div><br>
+                        <h4 style="color: orange;">Lorem, Ipsum.</h4>
+                        <p style="">Lorem ipsum dolor sit amet consectetur. sita it</p>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12">
+                        <div style="height: 300px; width: 360px; border: 10px solid white; margin: auto; background-color: rgb(207, 205, 205);" class="d-flex align-items-center justify-content-center" ><button id="btn5"><ion-icon name="eye"style="font-size: 40px;"></ion-icon>&nbsp;&nbsp;Details</button>
+                        </div><br>
+                        <h4 style="color: orange;">Lorem Ipsum Dolor Sit Amet </h4>
+                        <p style="">Lorem ipsum dolor sit amet consectetur, sita it <br> adipisicing elit. Placeat nemo nostrum </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <h2 class="text-center" style="margin-top: 20px;"><span>WHAT WEOFFERS</span></h2>
+        <q class="text-center">
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reiciendis voluptatibus dicta nihil harum <br> itaque! Ab suscipit cum
+                voluptatibus dicta nihil harum autem!</h4>
+        </q>
+
+            <div class="container">
+                <div class="row mt-5">
+                    <div class=" col-lg-3 col-md-6 col-sm-12 ">
+                        <h2><span>Web Desing</span></h2>
+                        <p>Lorem ipsum dolor consectetur commodi <br> adipisicing. Odit beatae eaque commodi <br>
+                            repellendus iste
+                            voluptatibus officia iste <br> commodi fugiat commodi corrupti labore?</p>
+                            <button id="btn3">Details</button>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 ">
+                        <h2><span>Search Optimization</span></h2>
+                        <p>Lorem ipsum dolor consectetur commodi <br> adipisicing. Odit beatae eaque commodi <br>
+                            repellendus iste
+                            voluptatibus officia iste <br> commodi fugiat commodi corrupti labore?</p>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 ">
+                        <h2><span>Online Shop</span></h2>
+                        <p>Lorem ipsum dolor consectetur commodi <br> adipisicing. Odit beatae eaque commodi <br>
+                            repellendus iste
+                            voluptatibus officia iste <br> commodi fugiat commodi corrupti labore?</p>
+                            <button id="btn4">Details</button>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 ">
+                        <h2><span>Social Media</span></h2>
+                        <p>Lorem ipsum dolor consectetur commodi <br> adipisicing. Odit beatae eaque commodi <br>
+                            repellendus iste
+                            voluptatibus officia iste <br> commodi fugiat commodi corrupti labore?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="border: 1px solid white;"></div>
+            <br>
+        </div>
+        <h2 class="text-center" style="margin-top: 20px;"><span>TESTIMONIAL</span></h2>
+        <q class="text-center">
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reiciendis <br> itaque! Ab suscipit cum
+                voluptatibus dicta nihil harum autem!</h4>
+        </q>
+
+        <div class="text-center">
+            <p style="font-size: 20px;  center; color: orange;">joinDo/ and ceo lorimipsom</p>
+            <img src="img/icons8-circled-user-female-skin-type-6-48.png" style="width: 100px;"><img src="img/icons8-circled-user-male-skin-type-4-48.png" style="width: 100px;"><img src="img/icons8-circled-user-female-skin-type-7-48.png" style="width: 100px;">
+        </div>
+
+
+        <div class="container-fluid" style="background-color: rgb(46, 62, 78); height: 600px;">
+            <div class="row">
+                <div class=" col-lg-3 col-md-6 col-sm-12">
+
+                    <h3 style="color: orange; margin-top: 70px;">BIRD FEEDS</h3> <br>
+                    <p style="">Check out these great theme item</p>
+                        <p id="">https://tadjalskfj.com</p>
+                        <p style="">2 weeks ago</p>
+                        <div style="border: 1px solid white;"></div>
+                        <br>
+                        <p style="">Check out these great theme item for</p>
+                        <p id="">https://tadjalskfj.com</p>
+                        <p style="">2 weeks ago</p> 
+                        <div style="border: 1px solid white;"></div>
+                        <br>
+                        <p style="">Check out these great theme item for you</p>
+                        <p id="">https://tadjalskfj.com</p>
+                        <p style="">2 weeks ago</p>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-12">
+
+                    <h3 style="color: orange; margin-top: 70px;">NEWS LETTERS</h3> <br>
+                    <p style="">Lorem ipsum dolor sit amet consectetur isicingp</p> 
+                    <p style="">Porro sit cumque cupiditate quam enimmolestia</p>
+                     <p style="">uptate reiciendis similique nihil. Animi,</p>
+                     <div style="border: 1px solid white;"></div>
+                    <br>
+                    <form action="">
+                            <p id="">Your Eamail Address</p>
+                            <input type="text" size="39%">
+                    </form>
+                    <br>
+                    <button id="btn6">Sign up</button>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-12 ">
+
+                    <h3 style="color: orange; margin-top: 70px;">RECENT PROJECTS</h3> <br>
+                    <div class="d-flex" style="gap: 15px;">
+                    <div style=" width: 100px; height: 100px; background-color: white; border-radius: 10px;">
+                    </div>
+                    <div>
+                    <p style="">Sketchy Business Card</p>
+                        <p id="">https://tadjalskfj.com</p>
+                        <p style="">2 weeks ago</p>
+                        </div>
+                    </div>
+                    <div style="border: 1px solid white;"></div>
+                    <br>
+                    <div class="d-flex" style="gap: 15px;">
+                        <div style=" width: 100px; height: 100px; background-color: white; border-radius: 10px;">
+                        </div>
+                        <div>
+                        <p style="">Sketchy Business Card</p>
+                            <p id="">https://tadjalskfj.com</p>
+                            <p style="">2 weeks ago</p>
+                            </div>
+                        </div>
+                        <div style="border: 1px solid white;"></div>
+                        <br>
+                        <div class="d-flex" style="gap: 15px;">
+                            <div style=" width: 100px; height: 100px; background-color: white; border-radius: 10px;">
+                            </div>
+                            <div>
+                            <p style="">Sketchy Business Card</p>
+                                <p id="">https://tadjalskfj.com</p>
+                                <p style="">2 weeks ago</p>
+                                </div>
+                            </div>
+
+
+                </div>
+
+                
+                <div class=" col-lg-3 col-md-6 col-sm-12 ">
+
+                    <h3 style="color: orange; margin-top: 70px;">CONTACT</h3> <br>
+                    <div class="d-flex">
+                        <div><img src="img/icons8-phone-94.png">
+                        </div>
+                        <div>
+                        <p class="m-4" style="">1-000-000-0000 <br>1-000-000-0000</p>
+                           
+                            </div>
+                        </div>
+<hr>
+                        <div class="d-flex">
+                            <div><img src="img/icons8-speech-bubble-100.png">
+                            </div>
+                            <div>
+                                <p class="m-4" style="">1-000-000-0000 <br>1-000-000-0000</p>
+                                
+                                </div>
+                            </div>
+<hr>
+                            <div class="d-flex">
+                                <div><img src="img/icons8-mail-48.png" width="100px">
+                                </div>
+                                <div>
+                                    <p class="m-4" style="">abcdefg@hijs.dfh <br>
+                                    fjashfaf@jkfs.ckd</p>
+                                    </div>
+                                </div>
+
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
